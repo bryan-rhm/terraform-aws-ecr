@@ -9,7 +9,7 @@ module "ecr" {
   source              = "bryan-rhm/ecr/aws"
   version             = "1.0.0"
   name                = "my_repo"
-  allowed_account_ids = ["123456655" , "23452345543]
+  allowed_account_ids = ["123456655" , "23452345543"]
 }
 
 output "ecr_url" {
